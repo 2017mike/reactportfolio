@@ -120,6 +120,8 @@ export default function Contact() {
           >
             Submit
           </Button>
+          <p> Do you have a project or employment opportunity that you think would be a good fit? Please don't hesitate to contact me!
+    I will be sure to reply ASAP so we can go over the details. You can also e-mail directly at mwscharf@ucdavis.edu, or call or text me at (909)703-7038.</p>
           <Grid container justifyContent="flex-end">
             <Grid item>
               <Link href="#" variant="body2">
