@@ -1,22 +1,26 @@
 {
   "files": {
     "main.css": "/reactportfolio/static/css/main.a617e044.chunk.css",
-    "main.js": "/reactportfolio/static/js/main.3ce4e165.chunk.js",
-    "main.js.map": "/reactportfolio/static/js/main.3ce4e165.chunk.js.map",
-    "runtime-main.js": "/reactportfolio/static/js/runtime-main.bcc93334.js",
-    "runtime-main.js.map": "/reactportfolio/static/js/runtime-main.bcc93334.js.map",
-    "static/js/2.b160545c.chunk.js": "/reactportfolio/static/js/2.b160545c.chunk.js",
-    "static/js/2.b160545c.chunk.js.map": "/reactportfolio/static/js/2.b160545c.chunk.js.map",
-    "static/js/3.6228ff0c.chunk.js": "/reactportfolio/static/js/3.6228ff0c.chunk.js",
-    "static/js/3.6228ff0c.chunk.js.map": "/reactportfolio/static/js/3.6228ff0c.chunk.js.map",
+    "main.js": "/reactportfolio/static/js/main.bdf7629d.chunk.js",
+    "main.js.map": "/reactportfolio/static/js/main.bdf7629d.chunk.js.map",
+    "runtime-main.js": "/reactportfolio/static/js/runtime-main.23c6fa09.js",
+    "runtime-main.js.map": "/reactportfolio/static/js/runtime-main.23c6fa09.js.map",
+    "static/js/2.e34cd1d7.chunk.js": "/reactportfolio/static/js/2.e34cd1d7.chunk.js",
+    "static/js/2.e34cd1d7.chunk.js.map": "/reactportfolio/static/js/2.e34cd1d7.chunk.js.map",
+    "static/js/3.f162b5f5.chunk.js": "/reactportfolio/static/js/3.f162b5f5.chunk.js",
+    "static/js/3.f162b5f5.chunk.js.map": "/reactportfolio/static/js/3.f162b5f5.chunk.js.map",
     "index.html": "/reactportfolio/index.html",
     "static/css/main.a617e044.chunk.css.map": "/reactportfolio/static/css/main.a617e044.chunk.css.map",
-    "static/js/2.b160545c.chunk.js.LICENSE.txt": "/reactportfolio/static/js/2.b160545c.chunk.js.LICENSE.txt"
+    "static/js/2.e34cd1d7.chunk.js.LICENSE.txt": "/reactportfolio/static/js/2.e34cd1d7.chunk.js.LICENSE.txt",
+    "static/media/forever21.f08eaada.jpg": "/reactportfolio/static/media/forever21.f08eaada.jpg",
+    "static/media/inkedin.3d2230b2.png": "/reactportfolio/static/media/inkedin.3d2230b2.png",
+    "static/media/songslanglogo.353a1b2d.png": "/reactportfolio/static/media/songslanglogo.353a1b2d.png",
+    "static/media/vector-weather-symbols.1eeee776.jpg": "/reactportfolio/static/media/vector-weather-symbols.1eeee776.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.bcc93334.js",
-    "static/js/2.b160545c.chunk.js",
+    "static/js/runtime-main.23c6fa09.js",
+    "static/js/2.e34cd1d7.chunk.js",
     "static/css/main.a617e044.chunk.css",
-    "static/js/main.3ce4e165.chunk.js"
+    "static/js/main.bdf7629d.chunk.js"
   ]
 }
