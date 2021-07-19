@@ -155,7 +155,7 @@ const Navbar = ({ pages, setpageState }) => {
           <MenuIcon />
         </IconButton>
         <Typography component="h1" variant="h6" color="inherit" noWrap className={classes.title}>
-          Zap
+          Michael Scharf
         </Typography>
           <div className={classes.sectionDesktop}>
             
@@ -187,28 +187,24 @@ const Navbar = ({ pages, setpageState }) => {
         <div>
           <ListItem button>
             <ListItemIcon>
+              
               <LayersIcon />
             </ListItemIcon>
-              <Link to="/"><ListItemText primary="Dashboard" /></Link>
+              <Link to="/"><ListItemText primary="About" /></Link>
           </ListItem>
           <ListItem button>
             <ListItemIcon>
               <DashboardIcon />
             </ListItemIcon>
-              <Link to="/projects"><ListItemText primary="View My Projects" /></Link>
+              <Link to="/portfolio"><ListItemText primary="Portfolio" /></Link>
           </ListItem>
           <ListItem button>
             <ListItemIcon>
-              
+                <DashboardIcon />
             </ListItemIcon>
-              <Link to="/me"><ListItemText primary="Reported By Me" /></Link>
+              <Link to="/contact"><ListItemText primary="Contact" /></Link>
           </ListItem>
-          <ListItem button>
-            <ListItemIcon>
-              <PeopleIcon />
-            </ListItemIcon>
-              <Link to="/help"><ListItemText primary="Community Issues" /></Link>
-          </ListItem>
+         
         </div>
       </List>
     </Drawer>

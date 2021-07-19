@@ -4,6 +4,9 @@ import { makeStyles } from '@material-ui/core/styles';
 import CssBaseline from '@material-ui/core/CssBaseline';
 import Container from '@material-ui/core/Container';
 import Navbar from './components/Navbar'
+import Home from './pages/Home'
+import Portfolio from './pages/Portfolio'
+import Contact from './pages/Contact'
 
 import {
   BrowserRouter as Router,
@@ -53,6 +56,7 @@ function App() {
     <Router>
       <div className={classes.root}>
         <CssBaseline />
+        <Navbar />
         
 
         <main className={classes.content}>
@@ -60,9 +64,14 @@ function App() {
           <Container className={classes.container}>
             <Switch>
               <Route exact path="/">
-                <HomeRounded />
+                <Home />
               </Route>
-             
+              <Route exact path="/portfolio">
+                <Portfolio />
+              </Route>
+              <Route exact path="/contact">
+                <Contact />
+              </Route>
             </Switch>
           </Container>
         </main>
