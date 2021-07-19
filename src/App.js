@@ -1,24 +1,73 @@
-import logo from './logo.svg';
 import './App.css';
+import React from 'react';
+import { makeStyles } from '@material-ui/core/styles';
+import CssBaseline from '@material-ui/core/CssBaseline';
+import Container from '@material-ui/core/Container';
+import Navbar from './components/Navbar'
+
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Link
+} from "react-router-dom";
+import { HomeRounded } from '@material-ui/icons';
+
+
+const useStyles = makeStyles((theme) => ({
+  root: {
+    display: 'flex',
+    backgroundColor: '#cccccc',
+  },
+  appBarSpacer: theme.mixins.toolbar,
+  content: {
+    flexGrow: 1,
+    height: '100vh',
+    overflow: 'auto',
+  },
+  container: {
+    paddingTop: theme.spacing(4),
+    paddingBottom: theme.spacing(4),
+  },
+  paper: {
+    padding: theme.spacing(2),
+    display: 'flex',
+    overflow: 'auto',
+    flexDirection: 'column',
+  },
+  fixedHeight: {
+    height: 240,
+  },
+}));
+
 
 function App() {
+  const classes = useStyles();
+
+  
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+
+
+
+    <Router>
+      <div className={classes.root}>
+        <CssBaseline />
+        
+
+        <main className={classes.content}>
+          <div className={classes.appBarSpacer} />
+          <Container className={classes.container}>
+            <Switch>
+              <Route exact path="/">
+                <HomeRounded />
+              </Route>
+             
+            </Switch>
+          </Container>
+        </main>
+      </div>
+    </Router>
   );
 }
 
