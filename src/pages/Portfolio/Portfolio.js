@@ -13,6 +13,7 @@ import inkedin from './inkedin.png';
 import songSlang from './songslanglogo.png';
 import weather from './vector-weather-symbols.jpg';
 import forever21 from './forever21.jpg';
+import zap from './Zap register.png'
 
 const useStyles = makeStyles({
   root: {
@@ -92,14 +93,13 @@ export default function Portfolio() {
 
 
             <CardContent>
-              <img src={forever21} width="300" height="200" />
+              <img src={zap} width="300" height="200" />
               <Typography gutterBottom variant="h5" component="h2">
-                Forever 21
+                Zap
           </Typography>
 
               <Typography variant="body2" color="textSecondary" component="p">
-                I was heavily involved in the design, layout, and functionality
-                of Forever 21's new website, which integrates A/B testing to promote sales.I worked with html, CSS, and JavaScript.
+                Zap is a bug-tracking app that I helped develop in a team of four. It is a MERN stack app that can be used to make projects, create issues within those projects, then have those issues made public if chosen by the issue's creator. 
           </Typography>
             </CardContent>
           </CardActionArea>
